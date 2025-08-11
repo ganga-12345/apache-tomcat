@@ -27,6 +27,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>nexusRepo</id>
+      <name>Releases</name>
+      <url>http://100.26.200.149:8081/repository/apache-tomcat-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexusRepo</id>
+      <name>Snapshot</name>
+      <url>http://100.26.200.149:8081/repository/apache-tomcat-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <finalName>apache-tomcat</finalName>
