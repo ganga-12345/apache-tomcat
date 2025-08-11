@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2><%= "Welcome to the devops project classes!" %></h2>
+<h2><%= "Welcome to the devops project class!" %></h2>
 </body>
 </html>
